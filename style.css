@@ -1,0 +1,41 @@
+html{
+    width: 100%;
+    height: 100%;   
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.btn {
+
+color: white;
+background-color: black;
+border: white solid 3px;
+font-size: 30px;
+border-radius: 50px;
+padding: 20px;
+font-family:'font';
+cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #333333;
+   }
+
+   .display{
+       width: 500px;
+       height:500px;
+       background-color: white;
+       color: black;
+       font-size: 25px;
+        margin-bottom: 30px;
+        text-align: center;  
+   }
+
